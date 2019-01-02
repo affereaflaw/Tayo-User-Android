@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0c5baf"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Account Info"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="136dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/username" />
+
+    <TextView
+        android:id="@+id/profilNama"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Hassan Fauzi" />
+
+
+    <TextView
+        android:id="@+id/profilTTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="8pt"
+        android:layout_marginBottom="10dp"
+        android:textColor="#e7e7e7"
+        android:text="23 Tahun, 10-10-1997" />
+
+    <TextView
+        android:id="@+id/profilGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="8pt"
+        android:layout_marginBottom="10dp"
+        android:textColor="#e7e7e7"
+        android:text="Male" />
+
+    <TextView
+        android:id="@+id/profilEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="8pt"
+        android:layout_marginBottom="10dp"
+        android:textColor="#e7e7e7"
+        android:text="fauzi@mail.com" />
+
+    <TextView
+        android:id="@+id/profilNoHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="8pt"
+        android:textColor="#e7e7e7"
+        android:text="081393004304" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c5baf"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/profilTotalCommute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:text="Total Commute :"
+            android:textColor="#e7e7e7"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/profilTotalCommute_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="129dp"
+            android:layout_marginBottom="10dp"
+            android:text="34"
+            android:textColor="#e7e7e7"
+            android:textSize="8pt" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Save"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Logout"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
